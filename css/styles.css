@@ -2,20 +2,29 @@ body{
     font-family:  'Montserrat', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* heading's section  */
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.section-heading{
+
+}
+
 #title{
     background-color: #ff4c68;
 }
 
-.container-fluid{
-    padding: 3% 15% 7%;
-    color: white;
-}
-
-.row h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    line-height: 1.5;
-    size: 3.5rem;
+#title .container-fluid{
+    padding: 3% 15%;
 }
 
 /* Navigation bar */
@@ -45,6 +54,7 @@ body{
 }
 
 /* Title image  */
+
 .title-image{
     width: 21%;
     height: 88%;
@@ -52,20 +62,6 @@ body{
     transform:rotate(25deg);
     position: absolute;
 }
-
-@media (max-width:1025px){
-    .title-image{
-        position: static;
-        transform: rotate(0deg);
-        width: 60%;
-        height: 100%;
-        text-align: center;
-    }
-    .container-fluid .row{
-        text-align: center;
-    }
-}
-
 
 /* features section  */
 
@@ -75,8 +71,7 @@ body{
     position:relative;
 }
 
-h3{
-    font-family: "Montserrat";
+.feature-title{
     font-weight: 900;
     font-size: 1.2rem;
 }
@@ -112,8 +107,7 @@ p{
     color: #fff;
 }
 
-h2{
-    font-family: "Montserrat", sans-serif;
+.testimonial-text{
     font-weight: 900;
     font-size: 3rem;
     line-height: 1.5;
@@ -124,6 +118,7 @@ h2{
     border-radius: 100%;
     margin: 20px;
 }
+
 
 #press{
     background-color: #ef8172;
@@ -148,6 +143,11 @@ h2{
     text-align: center;
 }
 
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
 .pricing-column{
     padding: 3% 2%;
 
@@ -160,11 +160,6 @@ h2{
     background-color: #ef8172;
     text-align: center;
     color: #fff;
-}
-
-.cta-heading{
-    font-weight: 900;
-    font-size: 3rem;
 }
 
 .btn1, .btn2{
@@ -185,3 +180,19 @@ h2{
     margin: 2% 0 6%;
     padding: 20px;
 }
+
+/* Media query section  */
+
+@media (max-width:1025px){
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+        width: 60%;
+        height: 100%;
+        text-align: center;
+    }
+    .container-fluid .row{
+        text-align: center;
+    }
+}
+

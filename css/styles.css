@@ -1,5 +1,6 @@
 body{
     font-family:  'Montserrat', sans-serif;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -16,15 +17,15 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .section-heading{
-
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
 }
 
-#title{
-    background-color: #ff4c68;
-}
+/* container that all section have  */
 
-#title .container-fluid{
-    padding: 3% 15%;
+.container-fluid{
+    padding: 5% 15%;
 }
 
 /* Navigation bar */
@@ -53,6 +54,17 @@ h1, h2, h3, h4, h5, h6{
     margin: 5% 3% 5% 0;
 }
 
+/* title section  */
+
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15%;
+}
+
 /* Title image  */
 
 .title-image{
@@ -66,7 +78,6 @@ h1, h2, h3, h4, h5, h6{
 /* features section  */
 
 #features{
-    padding: 7% 15%;
     background-color: #fff;
     position:relative;
 }
@@ -82,7 +93,6 @@ p{
 }
 
 .feature-box{
-    text-align: center;
     padding: 5%;
 }
 
@@ -102,7 +112,6 @@ p{
 /* Testimonial section  */
 
 #testimonials{
-    text-align: center;
     background-color:#ef8172;
     color: #fff;
 }
@@ -122,7 +131,6 @@ p{
 
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -130,17 +138,10 @@ p{
     width: 15%;
     margin: 20px 20px 50px;
 }
-
-.carousel-item{
-    padding: 7% 15%;
-
-}
-
 /* Pricing section  */
 
 #pricing{
     padding: 100px;
-    text-align: center;
 }
 
 .price-text{
@@ -156,9 +157,7 @@ p{
 /* cta section  */
 
 #cta{
-    padding: 7% 15% 5%;
-    background-color: #ef8172;
-    text-align: center;
+    background-color: #ff4c68;
     color: #fff;
 }
 
@@ -167,11 +166,6 @@ p{
 }
 
 /* footer section  */
-
-#footer{
-    padding: 7% 15% 3%;
-    text-align: center;
-}
 
 .social{
     display: inline-block;

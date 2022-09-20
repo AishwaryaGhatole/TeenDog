@@ -8,13 +8,18 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 900;
 }
 
+/* container that all section have  */
+
+.container-fluid{
+    padding: 5% 15%;
+}
+
 /* heading's section  */
 .big-heading{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     line-height: 1.5;
     font-size: 3.5rem;
-    color: #fff;
 }
 
 .section-heading{
@@ -23,10 +28,15 @@ h1, h2, h3, h4, h5, h6{
     line-height: 1.5;
 }
 
-/* container that all section have  */
+/* sections  */
 
-.container-fluid{
-    padding: 5% 15%;
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
 }
 
 /* Navigation bar */
@@ -57,12 +67,8 @@ h1, h2, h3, h4, h5, h6{
 
 /* title section  */
 
-#title{
-    background-color: #ff4c68;
-    text-align: left;
-}
-
 #title .container-fluid{
+    text-align: left;
     padding: 3% 15%;
 }
 
@@ -79,7 +85,6 @@ h1, h2, h3, h4, h5, h6{
 /* features section  */
 
 #features{
-    background-color: #fff;
     position:relative;
 }
 
@@ -104,7 +109,6 @@ p{
 }
 
 .icon:hover{
-    /* scale: 1.01; */
     transition: 0.4s ease-in;
     rotate: 360deg;
     color: #ff4c68;
@@ -156,11 +160,6 @@ p{
 }
 
 /* cta section  */
-
-#cta{
-    background-color: #ff4c68;
-    color: #fff;
-}
 
 .btn1, .btn2{
     margin-top: 11%;
